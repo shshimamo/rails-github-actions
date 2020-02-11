@@ -1,4 +1,4 @@
-FROM ruby:2.6.1-stretch
+FROM ruby:2.6.5-stretch
 WORKDIR /app
 
 ARG BUNDLE_INSTALL_ARGS="-j 4"
